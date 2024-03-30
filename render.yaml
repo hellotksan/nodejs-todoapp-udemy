@@ -1,4 +1,4 @@
 services:
-  - name: my-app
+  - name: nodejs-todoapp-udemy
     buildCommand: npm run build
     startCommand: node app.js
