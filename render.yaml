@@ -1,0 +1,4 @@
+services:
+  - name: my-app
+    buildCommand: npm run build
+    startCommand: node app.js
