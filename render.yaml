@@ -1,4 +1,4 @@
 services:
   - name: nodejs-todoapp-udemy
-    buildCommand: npm run build
-    startCommand: node app.js
+    buildCommand: npm install && npm run build
+    startCommand: npm start
