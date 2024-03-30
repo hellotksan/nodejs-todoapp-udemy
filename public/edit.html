@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスクの編集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="single-task-form">
+            <h4>タスクの編集</h4>
+            <div class="form-control">
+                <label>タスクID</label>
+                <p class="task-edit-id"></p>
+            </div>
+            <div class="form-control">
+                <label for="name">名前</label>
+                <input type="text" name="name" class="task-edit-name">
+            </div>
+            <div class="form-control">
+                <label for="completed">完了・未完了</label>
+                <input type="checkbox" name="completed" class="task-edit-completed">
+            </div>
+            <button type="submit" class="block btn task-edit-btn">編集</button>
+            <a href="index.html" class="btn back-link">タスクに戻る</a>
+            <div class="form-alert"></div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="editTask.js"></script>
+</body>
+
+</html>
